@@ -51,5 +51,5 @@ history lives here, and `main` is the source of truth for what's deployed.
 - [ ] Step 6 — Gold star schema (dims + facts + engineered features)
 - [ ] Step 7 — Power BI semantic model / Direct Lake dashboards
 - [ ] Step 8 — Forecasting notebook (MLflow)
-- [ ] Step 9 — Optional: Data Activator alert
+- [ ] Step 9 — Data Activator alert
 
