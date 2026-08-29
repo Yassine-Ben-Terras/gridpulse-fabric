@@ -53,8 +53,3 @@ history lives here, and `main` is the source of truth for what's deployed.
 - [ ] Step 8 — Forecasting notebook (MLflow)
 - [ ] Step 9 — Optional: Data Activator alert
 
-## Secrets
-
-No secret is ever committed to this repo. ENTSO-E's API token lives in
-Azure Key Vault and is referenced from Fabric notebooks via
-`notebookutils.credentials.getSecret(...)`. See `docs/setup.md`.
