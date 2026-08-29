@@ -1,0 +1,7 @@
+# Local dev only — for unit-testing parsing/transform logic before it runs
+# inside a Fabric PySpark notebook (which already has these preinstalled).
+requests>=2.31
+pandas>=2.1
+lxml>=5.0          # ENTSO-E XML parsing
+pytest>=8.0
+python-dateutil>=2.9
