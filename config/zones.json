@@ -1,0 +1,51 @@
+{
+  "_comment": "One entry per bidding zone. Adding a zone here (no code change) is the whole point of the ForEach-driven pipeline in Section 4.1.",
+  "zones": [
+    {
+      "zone_code": "FR",
+      "country": "France",
+      "entsoe_eic_code": "10YFR-RTE------C",
+      "representative_point": {
+        "name": "Paris",
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      },
+      "timezone": "Europe/Paris"
+    },
+    {
+      "zone_code": "DE",
+      "country": "Germany",
+      "entsoe_eic_code": "10Y1001A1001A82H",
+      "_note": "This is the DE-LU (Germany-Luxembourg) bidding zone, merged since Oct 2018. There is no standalone DE-only EIC code post-2018 — worth knowing for the interview.",
+      "representative_point": {
+        "name": "Berlin",
+        "latitude": 52.5200,
+        "longitude": 13.4050
+      },
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "zone_code": "ES",
+      "country": "Spain",
+      "entsoe_eic_code": "10YES-REE------0",
+      "representative_point": {
+        "name": "Madrid",
+        "latitude": 40.4168,
+        "longitude": -3.7038
+      },
+      "timezone": "Europe/Madrid"
+    }
+  ],
+  "entsoe_document_types": {
+    "A65": "total_load_actual",
+    "A75": "generation_per_type",
+    "A44": "day_ahead_prices"
+  },
+  "open_meteo_variables": [
+    "temperature_2m",
+    "windspeed_10m",
+    "windspeed_100m",
+    "shortwave_radiation"
+  ],
+  "history_window_days": 365
+}
